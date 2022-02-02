@@ -6,7 +6,6 @@ import WebIcon from "@mui/icons-material/Web";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
 export default function Links() {
