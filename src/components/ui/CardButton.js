@@ -5,6 +5,7 @@ export default function CardButton(props) {
   const buttonStyles = {
     backgroundColor: "rgb(55, 6, 101)",
     gap: "10px",
+    boxShadow: "0 0.25rem 0.75rem rgba(0, 0, 0, 0.6)",
   };
   return (
     <div>
