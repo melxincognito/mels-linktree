@@ -1,9 +1,15 @@
 import "./App.css";
+import IntroCard from "./components/IntroCard";
+import Links from "./components/Links";
+import Layout from "./components/ui-layout/Layout";
 
 function App() {
   return (
     <div className="App">
-      <h1> hello</h1>
+      <Layout>
+        <IntroCard />
+        <Links />
+      </Layout>
     </div>
   );
 }
