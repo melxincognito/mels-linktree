@@ -40,7 +40,7 @@ export default function Header() {
             <Typography
               variant="h6"
               component="div"
-              sx={{ flexGrow: 1, fontFamily: "cursive" }}
+              sx={{ flexGrow: 1, fontFamily: "Kanit" }}
             >
               Mel Incögnito's Links
             </Typography>

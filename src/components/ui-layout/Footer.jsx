@@ -12,13 +12,14 @@ export default function Footer() {
     display: "flex",
     alignContent: "center",
     justifyContent: "center",
+    marginTop: "10px",
   };
 
   return (
     <div>
       <Paper sx={footerStyles} elevation={5}>
         {" "}
-        <Typography fontFamily="cursive">
+        <Typography sx={{ fontFamily: "Kanit" }}>
           {" "}
           © 2022 - melxincögnito | All Rights Reserved | Designed by Mel
           Incögnito{" "}
