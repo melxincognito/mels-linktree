@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Layout(props) {
   const mainDivStyle = {
-    marginTop: 70,
+    margin: "70px 0px 10px",
     overflow: "scroll",
   };
 
@@ -11,6 +12,7 @@ export default function Layout(props) {
     <div>
       <Header />
       <main style={mainDivStyle}>{props.children}</main>
+      <Footer />
     </div>
   );
 }
