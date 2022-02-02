@@ -12,7 +12,6 @@ export default function Footer() {
     display: "flex",
     alignContent: "center",
     justifyContent: "center",
-    marginTop: "10px",
   };
 
   return (
@@ -21,8 +20,7 @@ export default function Footer() {
         {" "}
         <Typography sx={{ fontFamily: "Kanit" }}>
           {" "}
-          © 2022 - melxincögnito | All Rights Reserved | Designed by Mel
-          Incögnito{" "}
+          © 2022 - melxincögnito | All Rights Reserved
         </Typography>
       </Paper>
     </div>
