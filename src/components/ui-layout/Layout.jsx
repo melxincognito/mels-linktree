@@ -10,10 +10,10 @@ export default function Layout(props) {
   };
 
   return (
-    <div>
+    <>
       <Header />
       <main style={mainDivStyle}>{props.children}</main>
       <Footer />
-    </div>
+    </>
   );
 }

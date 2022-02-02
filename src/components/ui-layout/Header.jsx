@@ -7,8 +7,8 @@ import {
   Button,
   IconButton,
 } from "@mui/material";
+import Heart from "./HeartButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
 export default function Header() {
   const headerStyles = {
@@ -45,8 +45,7 @@ export default function Header() {
               Mel Incögnito's Links
             </Typography>
             <Button color="inherit">
-              {" "}
-              <FavoriteBorderIcon />
+              <Heart />
             </Button>
           </Toolbar>
         </AppBar>
