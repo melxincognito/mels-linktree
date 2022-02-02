@@ -1,18 +1,15 @@
 import React from "react";
-import { Stack, Button } from "@mui/material";
+import { Stack } from "@mui/material";
 import UIBox from "./ui/UIBox";
+import CardButton from "./ui/CardButton";
 import WebIcon from "@mui/icons-material/Web";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
 export default function Links() {
-  const buttonStyles = {
-    backgroundColor: "rgb(55, 6, 101)",
-    gap: "10px",
-  };
-
   function portfolioPageClick() {
     window.open("https://www.melxincognito.com/", "_blank");
   }
@@ -38,55 +35,35 @@ export default function Links() {
     <div>
       <Stack spacing={2} direction="column">
         <UIBox>
-          <Button
-            variant="contained"
-            sx={buttonStyles}
-            onClick={portfolioPageClick}
-          >
+          <CardButton onClick={portfolioPageClick}>
             <WebIcon />
             Portfolio
-          </Button>
+          </CardButton>
         </UIBox>
         <UIBox>
-          <Button
-            variant="contained"
-            sx={buttonStyles}
-            onClick={githubPageClick}
-          >
+          <CardButton onClick={githubPageClick}>
             <GitHubIcon />
             GitHub
-          </Button>
+          </CardButton>
         </UIBox>
         <UIBox>
-          <Button
-            variant="contained"
-            sx={buttonStyles}
-            onClick={twitterPageClick}
-          >
+          <CardButton onClick={twitterPageClick}>
             <TwitterIcon />
             Twitter
-          </Button>
+          </CardButton>
         </UIBox>
         <UIBox>
-          <Button
-            variant="contained"
-            sx={buttonStyles}
-            onClick={youtubePageClick}
-          >
+          <CardButton onClick={youtubePageClick}>
             <YouTubeIcon />
             Youtube
-          </Button>
+          </CardButton>
         </UIBox>
 
         <UIBox>
-          <Button
-            variant="contained"
-            sx={buttonStyles}
-            onClick={linkedInPageClick}
-          >
+          <CardButton onClick={linkedInPageClick}>
             <LinkedInIcon />
             LinkedIn
-          </Button>
+          </CardButton>
         </UIBox>
       </Stack>
     </div>

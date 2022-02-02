@@ -8,7 +8,6 @@ export default function IntroCard() {
     backgroundColor: "rgb(186, 171, 218)",
     boxShadow: "0 0.25rem 0.75rem rgba(0, 0, 0, 0.493)",
     borderRadius: "7px",
-
     height: "100%",
     width: "100%",
     display: "grid",
@@ -19,19 +18,17 @@ export default function IntroCard() {
     marginBottom: 2,
   };
 
+  const cardMediaStyle = {
+    maxWidth: "10em",
+    maxHeight: "20em",
+    borderRadius: "50%",
+    margin: 2,
+  };
+
   return (
     <>
       <Card sx={introCardStyle}>
-        <CardMedia
-          sx={{
-            maxWidth: "10em",
-            maxHeight: "20em",
-            borderRadius: "50%",
-            margin: 2,
-          }}
-          component="img"
-          image={IntroCardPic}
-        />
+        <CardMedia sx={cardMediaStyle} component="img" image={IntroCardPic} />
       </Card>
     </>
   );
