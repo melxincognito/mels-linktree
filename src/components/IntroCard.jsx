@@ -23,6 +23,7 @@ export default function IntroCard() {
     maxHeight: "20em",
     borderRadius: "50%",
     margin: 2,
+    boxShadow: "0 0.25rem 0.75rem rgba(0, 0, 0, 0.6)",
   };
 
   return (
