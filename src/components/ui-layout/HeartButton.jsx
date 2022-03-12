@@ -11,6 +11,7 @@ function Heart(props) {
     justifyContent: "center",
     justifyItems: "center",
   };
+
   return (
     <div onClick={props.toggle} style={divStyle}>
       {props.on ? <FavoriteBorderIcon /> : <FavoriteIcon />}
