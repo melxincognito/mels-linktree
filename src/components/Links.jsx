@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import UIBox from "./ui/UIBox";
 import CardButton from "./ui/CardButton";
 import WebIcon from "@mui/icons-material/Web";
@@ -9,61 +9,54 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
 export default function Links() {
-  function portfolioPageClick() {
-    window.open("https://www.melxincognito.com/", "_blank");
-  }
-  function twitterPageClick() {
-    window.open("https://www.twitter.com/melxincognito", "_blank");
-  }
-
-  function youtubePageClick() {
-    window.open(
-      "https://www.youtube.com/channel/UCIsEgMaokVbYBt6siV9y1NQ",
-      "_blank"
-    );
-  }
-  function githubPageClick() {
-    window.open("https://github.com/melxincognito", "_blank");
-  }
-
-  function linkedInPageClick() {
-    window.open("https://www.linkedin.com/in/melgonzalez092/", "_blank");
-  }
+  const linksData = [
+    {
+      link: "https://www.melxincognito.com/",
+      title: "Portfolio",
+      icon: <WebIcon />,
+      index: 0,
+    },
+    {
+      link: "https://www.linkedin.com/in/melgonzalez092/",
+      title: "LinkedIn",
+      icon: <LinkedInIcon />,
+      index: 1,
+    },
+    {
+      link: "https://github.com/melxincognito",
+      title: "GitHub",
+      icon: <GitHubIcon />,
+      index: 2,
+    },
+    {
+      link: "https://www.twitter.com/melxincognito",
+      title: "Twitter",
+      icon: <TwitterIcon />,
+      index: 3,
+    },
+    {
+      link: "https://www.youtube.com/channel/UCIsEgMaokVbYBt6siV9y1NQ",
+      title: "Youtube",
+      icon: <YouTubeIcon />,
+      index: 4,
+    },
+  ];
 
   return (
     <div>
       <Stack spacing={2} direction="column">
-        <UIBox>
-          <CardButton onClick={portfolioPageClick}>
-            <WebIcon />
-            Portfolio
-          </CardButton>
-        </UIBox>
-        <UIBox>
-          <CardButton onClick={githubPageClick}>
-            <GitHubIcon />
-            GitHub
-          </CardButton>
-        </UIBox>
-        <UIBox>
-          <CardButton onClick={twitterPageClick}>
-            <TwitterIcon />
-            Twitter
-          </CardButton>
-        </UIBox>
-        <UIBox>
-          <CardButton onClick={youtubePageClick}>
-            <YouTubeIcon />
-            Youtube
-          </CardButton>
-        </UIBox>
-
-        <UIBox>
-          <CardButton onClick={linkedInPageClick}>
-            <LinkedInIcon />
-            LinkedIn
-          </CardButton>
-        </UIBox>
+        {linksData.map((link) => (
+          <UIBox key={link.index}>
+            <CardButton
+              onClick={() => {
+                window.open(`${link.link}`, "_blank");
+              }}
+            >
+              {link.icon}
+              <Typography> {link.title} </Typography>
+            </CardButton>
+          </UIBox>
+        ))}
       </Stack>
     </div>
   );

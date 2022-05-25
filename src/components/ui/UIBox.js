@@ -9,10 +9,9 @@ export default function UIBox(props) {
     height: "5rem",
     width: "100%",
     display: "flex",
-    alignContent: "center",
+    alignContent: "stretch",
     justifyContent: "center",
     alignItems: "center",
-    justifyItems: "center",
   };
   return (
     <div>
