@@ -7,9 +7,9 @@ export default function CardButton(props) {
     gap: "10px",
     boxShadow: "0 0.25rem 0.75rem rgba(0, 0, 0, 0.6)",
     position: "relative",
-    padding: "0.6rem 7rem",
+    padding: "0.6rem 0",
     borderRadius: "25px",
-    width: "fit-content",
+    width: "320px",
   };
   return (
     <div>
