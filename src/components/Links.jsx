@@ -12,21 +12,21 @@ import ComputerIcon from "@mui/icons-material/Computer";
 export default function Links() {
   const linksData = [
     {
+      link: "https://melxincognito.hashnode.dev/",
+      title: "Blog",
+      icon: <ComputerIcon />,
+      index: 0,
+    },
+    {
       link: "https://www.melxincognito.com/",
       title: "Portfolio",
       icon: <WebIcon />,
-      index: 0,
+      index: 1,
     },
     {
       link: "https://www.linkedin.com/in/melgonzalez092/",
       title: "LinkedIn",
       icon: <LinkedInIcon />,
-      index: 1,
-    },
-    {
-      link: "https://melxincognito.hashnode.dev/",
-      title: "Blog",
-      icon: <ComputerIcon />,
       index: 2,
     },
     {
