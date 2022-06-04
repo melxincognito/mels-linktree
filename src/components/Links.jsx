@@ -24,15 +24,15 @@ export default function Links() {
       index: 1,
     },
     {
-      link: "https://github.com/melxincognito",
-      title: "GitHub",
-      icon: <GitHubIcon />,
-      index: 2,
-    },
-    {
       link: "https://melxincognito.hashnode.dev/",
       title: "Blog",
       icon: <ComputerIcon />,
+      index: 2,
+    },
+    {
+      link: "https://github.com/melxincognito",
+      title: "GitHub",
+      icon: <GitHubIcon />,
       index: 3,
     },
     {
