@@ -19,7 +19,7 @@ export default function Links() {
     },
     {
       link: "https://www.melxincognito.com/",
-      title: "Portfolio",
+      title: "Website",
       icon: <WebIcon />,
       index: 1,
     },
