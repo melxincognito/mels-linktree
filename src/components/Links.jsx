@@ -7,6 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import ComputerIcon from "@mui/icons-material/Computer";
 
 export default function Links() {
   const linksData = [
@@ -29,16 +30,22 @@ export default function Links() {
       index: 2,
     },
     {
+      link: "https://melxincognito.hashnode.dev/",
+      title: "Blog",
+      icon: <ComputerIcon />,
+      index: 3,
+    },
+    {
       link: "https://www.twitter.com/melxincognito",
       title: "Twitter",
       icon: <TwitterIcon />,
-      index: 3,
+      index: 4,
     },
     {
       link: "https://www.youtube.com/channel/UCIsEgMaokVbYBt6siV9y1NQ",
       title: "Youtube",
       icon: <YouTubeIcon />,
-      index: 4,
+      index: 5,
     },
   ];
 
