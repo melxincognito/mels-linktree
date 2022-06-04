@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Card, CardMedia } from "@mui/material";
-import IntroCardPic from "../assets/snow.jpeg";
+import IntroCardPic from "../assets/headerimg.jpg";
 
 export default function IntroCard() {
   const introCardStyle = {
