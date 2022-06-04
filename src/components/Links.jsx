@@ -2,12 +2,12 @@ import React from "react";
 import { Stack, Typography } from "@mui/material";
 import UIBox from "./ui/UIBox";
 import CardButton from "./ui/CardButton";
-import WebIcon from "@mui/icons-material/Web";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import ComputerIcon from "@mui/icons-material/Computer";
+import LanguageIcon from "@mui/icons-material/Language";
 
 export default function Links() {
   const linksData = [
@@ -20,7 +20,7 @@ export default function Links() {
     {
       link: "https://www.melxincognito.com/",
       title: "Website",
-      icon: <WebIcon />,
+      icon: <LanguageIcon />,
       index: 1,
     },
     {
