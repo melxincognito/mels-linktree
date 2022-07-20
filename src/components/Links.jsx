@@ -13,6 +13,11 @@ import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 export default function Links() {
   const linksData = [
     {
+      link: "https://www.melxincognito.com/",
+      title: "Website",
+      icon: <LanguageIcon />,
+    },
+    {
       link: "https://melxincognito.hashnode.dev/",
       title: "Blog",
       icon: <ComputerIcon />,
@@ -21,11 +26,6 @@ export default function Links() {
       link: "https://www.twitch.tv/melxincognito",
       title: "Twitch",
       icon: <OndemandVideoIcon />,
-    },
-    {
-      link: "https://www.melxincognito.com/",
-      title: "Website",
-      icon: <LanguageIcon />,
     },
     {
       link: "https://www.linkedin.com/in/melgonzalez092/",
