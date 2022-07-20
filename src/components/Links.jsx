@@ -8,6 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import ComputerIcon from "@mui/icons-material/Computer";
 import LanguageIcon from "@mui/icons-material/Language";
+import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 
 export default function Links() {
   const linksData = [
@@ -15,25 +16,26 @@ export default function Links() {
       link: "https://melxincognito.hashnode.dev/",
       title: "Blog",
       icon: <ComputerIcon />,
-      index: 0,
+    },
+    {
+      link: "https://www.twitch.tv/melxincognito",
+      title: "Twitch",
+      icon: <OndemandVideoIcon />,
     },
     {
       link: "https://www.melxincognito.com/",
       title: "Website",
       icon: <LanguageIcon />,
-      index: 1,
     },
     {
       link: "https://www.linkedin.com/in/melgonzalez092/",
       title: "LinkedIn",
       icon: <LinkedInIcon />,
-      index: 2,
     },
     {
       link: "https://github.com/melxincognito",
       title: "GitHub",
       icon: <GitHubIcon />,
-      index: 3,
     },
     {
       link: "https://www.twitter.com/melxincognito",
@@ -45,15 +47,14 @@ export default function Links() {
       link: "https://www.youtube.com/channel/UCIsEgMaokVbYBt6siV9y1NQ",
       title: "Youtube",
       icon: <YouTubeIcon />,
-      index: 5,
     },
   ];
 
   return (
     <div>
       <Stack spacing={2} direction="column">
-        {linksData.map((link) => (
-          <UIBox key={link.index}>
+        {linksData.map((link, index) => (
+          <UIBox key={index}>
             <CardButton
               onClick={() => {
                 window.open(`${link.link}`, "_blank");
