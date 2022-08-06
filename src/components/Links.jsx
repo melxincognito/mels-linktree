@@ -8,6 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import ComputerIcon from "@mui/icons-material/Computer";
 import LanguageIcon from "@mui/icons-material/Language";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 
 export default function Links() {
@@ -41,7 +42,11 @@ export default function Links() {
       link: "https://www.twitter.com/melxincognito",
       title: "Twitter",
       icon: <TwitterIcon />,
-      index: 4,
+    },
+    {
+      link: "https://www.instagram.com/melxincognito_cssart",
+      title: "CSS Art",
+      icon: <InstagramIcon />,
     },
     {
       link: "https://www.youtube.com/channel/UCIsEgMaokVbYBt6siV9y1NQ",
