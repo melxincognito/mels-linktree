@@ -8,6 +8,8 @@
 
 ## Preview
 
+<img src='./public/mels-linktree.jpg' alt='Preview of Mels linktree clone' height='50%' width='50%' />
+
 ![Preview of Mel's linktree clone](./public/mels-linktree.jpg?raw=true)
 
 ## Getting Started
