@@ -10,7 +10,7 @@
 
 [See live application](https://www.links-melxincognito.com/)
 
-<img src='./public/mels-linktree.jpg' alt='Preview of Mels linktree clone' height='50%' width='50%' />
+<img src='./public/mels-linktree.png' alt='Preview of Mels linktree clone' height='50%' width='50%' />
 
 ## Getting Started
 
