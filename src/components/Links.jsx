@@ -24,20 +24,16 @@ export default function Links() {
       icon: <ComputerIcon />,
     },
     {
-      link: "https://www.twitch.tv/melxincognito",
-      title: "Twitch",
-      icon: <OndemandVideoIcon />,
+      link: "https://github.com/melxincognito",
+      title: "GitHub",
+      icon: <GitHubIcon />,
     },
     {
       link: "https://www.linkedin.com/in/melgonzalez092/",
       title: "LinkedIn",
       icon: <LinkedInIcon />,
     },
-    {
-      link: "https://github.com/melxincognito",
-      title: "GitHub",
-      icon: <GitHubIcon />,
-    },
+
     {
       link: "https://www.twitter.com/melxincognito",
       title: "Twitter",
@@ -47,6 +43,11 @@ export default function Links() {
       link: "https://www.instagram.com/melxincognito_cssart",
       title: "CSS Art",
       icon: <InstagramIcon />,
+    },
+    {
+      link: "https://www.twitch.tv/melxincognito",
+      title: "Twitch",
+      icon: <OndemandVideoIcon />,
     },
     {
       link: "https://www.youtube.com/channel/UCIsEgMaokVbYBt6siV9y1NQ",
