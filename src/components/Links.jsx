@@ -3,7 +3,6 @@ import { Stack, Typography } from "@mui/material";
 import UIBox from "./ui/UIBox";
 import CardButton from "./ui/CardButton";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import ComputerIcon from "@mui/icons-material/Computer";
@@ -32,12 +31,6 @@ export default function Links() {
       link: "https://www.linkedin.com/in/melgonzalez092/",
       title: "LinkedIn",
       icon: <LinkedInIcon />,
-    },
-
-    {
-      link: "https://www.twitter.com/melxincognito",
-      title: "Twitter",
-      icon: <TwitterIcon />,
     },
     {
       link: "https://www.instagram.com/melxincognito_cssart",
